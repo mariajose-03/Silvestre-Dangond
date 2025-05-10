@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biografía - Silvestre Dangond</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+    }
+    main {
+      display: grid;
+      grid-template-areas:
+        "header"
+        "nav"
+        "origen"
+        "inicios"
+        "vida"
+        "pdf"
+        "footer";
+      gap: 20px;
+      padding: 20px;
+    }
+    header {
+      grid-area: header;
+      text-align: center;
+    }
+    nav {
+      grid-area: nav;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #b30000;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    #origen { grid-area: origen; }
+    #inicios { grid-area: inicios; }
+    #vida { grid-area: vida; }
+    #pdf { grid-area: pdf; text-align: center; }
+    h3 {
+      color: #b30000;
+      border-bottom: 2px solid #b30000;
+      padding-bottom: 5px;
+    }
+    p {
+      line-height: 1.6;
+      color: #333;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+    footer {
+      grid-area: footer;
+      text-align: center;
+      background-color: #f2f2f2;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Biografía</h1>
+      <h2>Silvestre Dangond: El ícono moderno del vallenato</h2>
+    </header>
+
+    <nav>
+      <a href="biografia.html">Biografía</a>
+      <a href="discografia.html">Discografía</a>
+      <a href="premios.html">Premios</a>
+    </nav>
+
+    <section id="origen">
+      <h3>Origen familiar y nacimiento</h3>
+      <p>
+        Silvestre Francisco Dangond Corrales nació el 12 de mayo de 1980 en Urumita, La Guajira, Colombia. Proviene de una familia profundamente ligada a la música vallenata. Su padre, William José “El Palomo” Dangond Baquero, fue un cantante destacado en los años 70, conocido por su colaboración con Andrés “El Turco” Gil. Juntos lanzaron diez sencillos y un trabajo completo, dejando una huella en el folclor vallenato que inspiró a Silvestre desde su cuna. Su madre, Dellys Corrales Rojas, también proveniente de una familia con vocación musical, tuvo un papel clave en la formación artística y personal de su hijo, brindándole educación y apoyándolo desde sus primeros pasos. Durante su primer año de vida, Silvestre vivió con sus abuelos paternos, experiencia que reforzó su identidad cultural y la autenticidad de su carácter.
+      </p>
+      <img src="IMÁGENES/sddefault.jpg" alt="Silvestre de niño" width="200" height="200">
+      <img src="IMÁGENES/8221f2a5-c200-4b38-93ca-287199facf93.jpg" alt="Silvestre y su padre" width="200" height="200">
+      <img src="IMÁGENES/images.jpg" alt="Silvestre y su hermano de pequeños" width="200" height="200">
+      <img src="IMÁGENES/silvestreymadre.jpg" alt="Silvestre y su madre" width="200" height="200">
+    </section>
+
+    <section id="inicios">
+      <h3>Inicios en la música</h3>
+      <p>
+        Desde muy pequeño, Silvestre mostró un talento natural para la música vallenata. Participó en festivales infantiles en Valledupar, donde obtuvo premios gracias a su carisma y afinación. Su admiración por su padrino, el cantante Jorge Oñate, lo motivó a interpretar sus canciones con entusiasmo. A los 13 años grabó una canción dedicada a Valledupar, demostrando una madurez artística inusual para su edad. Más adelante, su familia se trasladó a Bogotá, lo que representó un cambio significativo en su vida. Allí enfrentó nuevos retos y comenzó a abrirse camino en la escena musical nacional, con esfuerzo y persistencia. Este nuevo entorno fue clave para dar a conocer su talento en todo el país.
+      </p>
+      <img src="IMÁGENES/0e680566-f01f-4eb6-bc3d-d6235a8be2ef.jpg" alt="Silvestre" width="200" height="200">
+      <img src="IMÁGENES/SILVESTRE5.jpg" alt="Silvestre" width="200" height="200">
+      <img src="IMÁGENES/Sin título-1_0008_Instagram - @silvestredangond.jpg" alt="Silvestre de joven" width="200" height="200">
+    </section>
+
+    <section id="vida">
+      <h3>Vida personal</h3>
+      <p>
+        El 13 de septiembre de 2011, Silvestre Dangond se casó con Piery Avendaño, su novia de infancia, en la iglesia de Santo Toribio de Mogrovejo en Cartagena. La pareja se conoció en Valledupar y, desde entonces, han compartido una vida llena de complicidad y apoyo mutuo. Juntos tienen tres hijos: Luis José, Silvestre José y José Silvestre. Piery ha sido una figura fundamental en la vida de Silvestre, especialmente en momentos difíciles. Incluso apareció en el video musical “La vallenata”, como una manera simbólica de Silvestre para expresarle su amor y gratitud.
+      </p>
+      <img src="IMÁGENES/silvestreyfamilia.jpg" alt="Silvestre y su esposa Piery con sus hijos">
+    </section>
+
+    <section id="pdf">
+      <a href="REVISTA.pdf" target="_blank" style="color: #b30000; font-weight: bold; font-size: 18px;">📄 Descargar revista en PDF interactivo</a>
+    </section>
+
+    <footer>
+      <p>2025 - © Realizado por "María José Mesa Carrillo"</p>
+    </footer>
+  </main>
+</body>
+</html>

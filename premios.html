@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premios - Silvestre Dangond</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff8f0;
+      margin: 0;
+      padding: 0;
+    }
+    main {
+      display: grid;
+      grid-template-areas:
+        "header"
+        "nav"
+        "contenido"
+        "pdf"
+        "footer";
+      gap: 20px;
+      padding: 20px;
+    }
+    header {
+      grid-area: header;
+      text-align: center;
+    }
+    nav {
+      grid-area: nav;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #b30000;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+    #contenido { grid-area: contenido; }
+    #pdf { grid-area: pdf; text-align: center; }
+    h3 {
+      color: #b30000;
+      border-bottom: 2px solid #b30000;
+      padding-bottom: 5px;
+      margin-top: 30px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #f8e0e0;
+    }
+    tr:nth-child(even) {
+      background-color: #fdf2f2;
+    }
+    footer {
+      grid-area: footer;
+      text-align: center;
+      background-color: #f2f2f2;
+      padding: 15px;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Premios y Nominaciones</h1>
+      <h2>Silvestre Dangond</h2>
+    </header>
+
+    <nav>
+      <a href="seccion1.html">Biografía</a>
+      <a href="seccion2.html">Discografía</a>
+      <a href="seccion3.html">Premios</a>
+    </nav>
+
+    <section id="contenido">
+      <h3>Premios Grammy Latinos</h3>
+      <table>
+        <tr><th>Año</th><th>Trabajo</th><th>Categoría</th><th>Resultado</th></tr>
+        <tr><td>2009</td><td>El Original</td><td>Mejor Álbum de Cumbia/Vallenato</td><td>Nominado</td></tr>
+        <tr><td>2011</td><td>Cantinero</td><td>Mejor Álbum Tropical</td><td>Nominado</td></tr>
+        <tr><td>2012</td><td>No me compares con nadie</td><td>Mejor Álbum de Cumbia/Vallenato</td><td>Nominado</td></tr>
+        <tr><td>2013</td><td>La novena batalla</td><td>Mejor Álbum de Cumbia/Vallenato</td><td>Nominado</td></tr>
+        <tr><td>2015</td><td>Sigo invicto</td><td>Mejor Álbum de Cumbia/Vallenato</td><td>Nominado</td></tr>
+        <tr><td>2017</td><td>Gente valiente</td><td>Mejor Álbum de Cumbia/Vallenato</td><td>Nominado</td></tr>
+        <tr><td>2018</td><td>Esto es vida</td><td>Mejor Álbum de Cumbia/Vallenato</td><td><strong>Ganador</strong></td></tr>
+        <tr><td>2018</td><td>Cásate conmigo (feat. Nicky Jam)</td><td>Mejor Canción Tropical</td><td>Nominado</td></tr>
+        <tr><td>2021</td><td>Las Locuras Mías</td><td>Mejor Álbum de Cumbia/Vallenato</td><td><strong>Ganador</strong></td></tr>
+      </table>
+
+      <h3>Premios Grammy</h3>
+      <table>
+        <tr><th>Año</th><th>Trabajo</th><th>Categoría</th><th>Resultado</th></tr>
+        <tr><td>2018</td><td>Gente Valiente</td><td>Best Tropical Latin Album</td><td>Nominado</td></tr>
+      </table>
+
+      <h3>Premios Billboard Latinos</h3>
+      <table>
+        <tr><th>Año</th><th>Trabajo</th><th>Categoría</th><th>Resultado</th></tr>
+        <tr><td>2020</td><td>Vivir Bailando (feat. Maluma)</td><td>Canción Tropical del Año</td><td>Nominado</td></tr>
+      </table>
+
+      <h3>Premios Lo Nuestro</h3>
+      <table>
+        <tr><th>Año</th><th>Trabajo</th><th>Categoría</th><th>Resultado</th></tr>
+        <tr><td>2019</td><td>Justicia</td><td>Colaboración Tropical del Año</td><td><strong>Ganador</strong></td></tr>
+        <tr><td>2019</td><td>Justicia</td><td>Canción Tropical del Año</td><td>Nominado</td></tr>
+        <tr><td>2019</td><td>Justicia</td><td>Colaboración del Año</td><td>Nominado</td></tr>
+        <tr><td>2019</td><td>Justicia</td><td>Artista Tropical del Año</td><td>Nominado</td></tr>
+      </table>
+
+      <h3>Premios Nuestra Tierra (Selección)</h3>
+      <table>
+        <tr><th>Año</th><th>Trabajo</th><th>Categoría</th><th>Resultado</th></tr>
+        <tr><td>2007</td><td>Silvestre Dangond</td><td>Artista del Año</td><td><strong>Ganador</strong></td></tr>
+        <tr><td>2009</td><td>Me gusta, me gusta</td><td>Canción del Año</td><td><strong>Ganador</strong></td></tr>
+        <tr><td>2009</td><td>Silvestre Dangond</td><td>Artista vallenato del Año</td><td><strong>Ganador</strong></td></tr>
+        <tr><td>2020</td><td>Vallenato Apretao</td><td>Canción vallenata del Año</td><td><strong>Ganador</strong></td></tr>
+        <tr><td>2021</td><td>Las Locuras Mías</td><td>Canción vallenato del año</td><td><strong>Ganador</strong></td></tr>
+        <tr><td>2024</td><td>Bacano</td><td>Canción vallenato del año</td><td><strong>Ganador</strong></td></tr>
+      </table>
+    </section>
+
+    <section id="pdf">
+      <a href="REVISTA.pdf" target="_blank" style="color: #b30000; font-weight: bold; font-size: 18px;">📄 Descargar revista en PDF interactivo</a>
+    </section>
+
+    <footer>
+      <p>2025 - © Realizado por "María José Mesa Carrillo"</p>
+    </footer>
+  </main>
+</body>
+</html>
